@@ -119,7 +119,7 @@ public class ContactBook {
             }
             i++;
         }
-        return contacts[i].getName();
+        return contacts[i-1].getName();
     }
 
     public boolean hasEqualPhone(){
