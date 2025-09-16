@@ -28,7 +28,7 @@ public class Main {
     public static final String COMMAND_ERROR = "Unknown command.";
     private static final String NUMBER_NOT_EXIST = "Phone number does not exist.";
     private static final String EQUAL_PHONE_NUMBERS = "There are contacts that share phone numbers.";
-    private static final String NOT_EQUAL_PHONE_NUMBERS = "All contacts have different phone numbers";
+    private static final String NOT_EQUAL_PHONE_NUMBERS = "All contacts have different phone numbers.";
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
