@@ -161,7 +161,7 @@ public class Main {
 
     private static void getContactByNumber(Scanner in, ContactBook cBook) {
         int number;
-        number = in.nextInt();
+        number = in.nextInt(); in.nextLine();
         if (cBook.hasContactNumber(number)) {
             System.out.println(cBook.getName(number));
         }
