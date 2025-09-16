@@ -160,9 +160,9 @@ public class Main {
     }
 
     private static void getContactByNumber(Scanner in, ContactBook cBook) {
-        String number;
-        number = in.nextLine();
-        if (cBook.hasContact(number)) {
+        int number;
+        number = in.nextInt();
+        if (cBook.hasContactNumber(number)) {
             System.out.println(cBook.getName(number));
         }
         else System.out.println(NUMBER_NOT_EXIST);
